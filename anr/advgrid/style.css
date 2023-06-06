@@ -1,0 +1,16 @@
+.container{
+    height: 700px;
+    border: 1px solid red;
+    background-color: yellow;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-auto-columns: minmax(200px, auto);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.box{
+    border: 1px solid gray;
+    background-color: rgb(187, 187, 187);
+}
